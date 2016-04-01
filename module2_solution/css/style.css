@@ -77,7 +77,7 @@ p {
 /********** Large devices only **********/
 @media (min-width: 992px) {
   .col-lg-4 {
-    width: 31%;
+    width: 31.2%;
     border-color: #000000;
     border-width: 1px;
     border-style: solid;
@@ -97,11 +97,11 @@ p {
   }
   
   .col-md-12 {
-    width: 100%;
+    width: 99%;
     border-color: #000000;
     border-width: 1px;
     border-style: solid;
-    margin: 10px 5px 0px 5px;
+    margin: 10px 5px 10px 5px;
   }
 
 }
