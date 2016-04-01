@@ -7,85 +7,101 @@
   box-sizing: border-box;
 }
 
+.heading{
+  width: 100%;
+  margin-bottom: 80px;
+  text-align: center;
+  font-family: Helvetica;
+  color: blue;
+}
 .row {
   width: 100%;
 }
 
 section {
+  float: left;
+  position: relative;
   background-color: #BDBDBD;
-  margin-left: 10 px;
-  margin-right: 10 px;
 }
 
 
 #title1 {
-  position: relative;
+  position: absolute;
   top: 0px;
   right: 0px;
-  background-color: #FF0080;
+  background-color: #14CA98;
+  border-style: solid;
+  border-width: 1px;
   border-color: #000000;
-  width: 10%;
-
+  width: 30%;
+  text-align: center;
+  margin: 0px 0px 0px 0px;
 }
 
 #title2 {
-  position: relative;
+  position: absolute;
   top: 0px;
   right: 0px;
-  background-color: #B40404;
+  float: right;
+  border-style: solid;
+  border-width: 1px;
   border-color: #000000;
-  width: 10%;
-
+  background-color: #B40404;
+  width: 30%;
+  text-align: center;
+  margin: 0px 0px 0px 0px;
 }
 
 #title3 {
-  position: relative;
+  position: absolute;
   top: 0px;
   right: 0px;
-  background-color: #DF7401;
+  border-style: solid;
+  border-width: 1px;
   border-color: #000000;
-  width: 10%;
-
+  background-color: #DF7401;
+  width: 30%;
+  text-align: center;
+  margin: 0px 0px 0px 0px;
 }
 
 p {
-  width: 90%;
-  height: 90%;
   font-family: Helvetica;
   color: black;
-  clear: both;
-  margin-right: 10px;
-  margin-left: 10px;
-  margin-bottom: 5px
+  margin: 40px 5px 5px 5px;
+
 }
 
 /* Simple Responsive Framework. */
 
 /********** Large devices only **********/
-@media (min-width: 992 px) {
+@media (min-width: 992px) {
   .col-lg-4 {
     width: 33%;
     border-color: #000000;
-    margin-left: 5px;
-    margin-right: 5px;
+    border-width: 1px;
+    border-style: solid;
+    margin: 0px 1px 1px 2px;
   }
+
 }
 
 /********** Medium devices only **********/
-@media (min-width: 768 px) and (max-width: 991px) {
- 
+@media (min-width: 768px) and (max-width: 991px) {
   .col-md-6 {
-    width: 50%;
+    width: 49%;
     border-color: #000000;
-    margin-left: 5px;
-    margin-right: 5px;
+    border-width: 1px;
+    border-style: solid;
+    margin: 0px 1px 1px 2px;
   }
   
   .col-md-12 {
     width: 100%;
     border-color: #000000;
-    margin-left: 5px;
-    margin-right: 5px;
+    border-width: 1px;
+    border-style: solid;
+    margin: 2px 2px 2px 2px;
   }
 
 }
@@ -96,7 +112,7 @@ p {
   .col-sm-12 {
     width: 100%;
     border-color: #000000;
-    margin-left: 5px;
-    margin-right: 5px;
-  }
+    border-width: 1px;
+    border-style: solid;
+    margin: 0px 2px 2px 2px;  }
 }
