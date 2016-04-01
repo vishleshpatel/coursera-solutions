@@ -1,0 +1,118 @@
+/* desktop - 992 px and above
+/* tablet - 768 - 991
+/* mobile - less than or equal to 767
+
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+
+.heading{
+  width: 100%;
+  margin-bottom: 80px;
+  text-align: center;
+  font-family: Helvetica;
+  color: blue;
+}
+.row {
+  width: 100%;
+}
+
+section {
+  float: left;
+  position: relative;
+  background-color: #BDBDBD;
+}
+
+
+#title1 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: #14CA98;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+  width: 30%;
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+}
+
+#title2 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  float: right;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+  background-color: #B40404;
+  width: 30%;
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+}
+
+#title3 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000000;
+  background-color: #DF7401;
+  width: 30%;
+  text-align: center;
+  margin: 0px 0px 0px 0px;
+}
+
+p {
+  font-family: Helvetica;
+  color: black;
+  margin: 40px 5px 5px 5px;
+
+}
+
+/* Simple Responsive Framework. */
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    width: 31.2%;
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+    margin: 0px 10px 0px 10px;
+  }
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    width: 48%;
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+    margin: 0px 5px 10px 5px;
+  }
+  
+  .col-md-12 {
+    width: 99%;
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+    margin: 10px 5px 10px 5px;
+  }
+
+}
+
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+  .col-sm-12 {
+    width: 99%;
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+    margin: 10px 5px 10px 5px;  }
+}
