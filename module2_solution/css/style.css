@@ -77,11 +77,11 @@ p {
 /********** Large devices only **********/
 @media (min-width: 992px) {
   .col-lg-4 {
-    width: 33%;
+    width: 31%;
     border-color: #000000;
     border-width: 1px;
     border-style: solid;
-    margin: 0px 1px 1px 2px;
+    margin: 0px 10px 0px 10px;
   }
 
 }
@@ -89,11 +89,11 @@ p {
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-6 {
-    width: 49%;
+    width: 48%;
     border-color: #000000;
     border-width: 1px;
     border-style: solid;
-    margin: 0px 1px 1px 2px;
+    margin: 0px 5px 10px 5px;
   }
   
   .col-md-12 {
@@ -101,7 +101,7 @@ p {
     border-color: #000000;
     border-width: 1px;
     border-style: solid;
-    margin: 2px 2px 2px 2px;
+    margin: 10px 5px 0px 5px;
   }
 
 }
@@ -110,9 +110,9 @@ p {
 /********** Small devices only **********/
 @media (max-width: 767px) {
   .col-sm-12 {
-    width: 100%;
+    width: 99%;
     border-color: #000000;
     border-width: 1px;
     border-style: solid;
-    margin: 0px 2px 2px 2px;  }
+    margin: 10px 5px 10px 5px;  }
 }
