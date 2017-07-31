@@ -1,2 +1,2 @@
 # coursera-test
-This is a Coursera test repository.
+This is my repository to post solutions for assignments of the Coursera course : "HTML, CSS and Javascript"
