@@ -77,11 +77,11 @@ p {
 /********** Large devices only **********/
 @media (min-width: 992px) {
   .col-lg-4 {
-    width: 31.2%;
+    width: 29.33%;
     border-color: #000000;
     border-width: 1px;
     border-style: solid;
-    margin: 0px 10px 0px 10px;
+    margin: 2% 2% 2% 2%;
   }
 
 }
@@ -89,19 +89,23 @@ p {
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-6 {
-    width: 48%;
+    width: 46%;
     border-color: #000000;
     border-width: 1px;
     border-style: solid;
-    margin: 0px 5px 10px 5px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
   }
   
   .col-md-12 {
-    width: 98%;
+    width: 96%;
     border-color: #000000;
     border-width: 1px;
     border-style: solid;
-    margin: 10px 5px 10px 5px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%
   }
 
 }
@@ -110,9 +114,10 @@ p {
 /********** Small devices only **********/
 @media (max-width: 767px) {
   .col-sm-12 {
-    width: 99%;
+    width: 96%;
     border-color: #000000;
     border-width: 1px;
     border-style: solid;
-    margin: 10px 5px 10px 5px;  }
+    margin: 2% 2% 2% 2%;
+  }
 }
